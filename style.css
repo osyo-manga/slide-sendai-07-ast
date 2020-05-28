@@ -1,0 +1,33 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+	text-transform: none;
+}
+
+.reveal pre code {
+    max-height: 800px;
+    white-space: pre-wrap;
+}
+
+.reveal .slides p {
+     /* text-align: left; */
+}
+
+
+.prof img {
+    border-radius: 150px;
+    -moz-border-image: border-radius: 150px;
+    -webkit-border-image: border-radius: 150px;
+}
+
+.line { display: block; }
+.line.hover { background: yellow; }
+/* include a highlight.js theme and modify it */
+/* ... */
+/* on focused: switch to solarized dark */
+.line.focus { background: #002b36; color: #839496; }
+.line.focus .hljs-comment, .line.focus .hljs-quote { color: #586e75; }
+/* ... */
